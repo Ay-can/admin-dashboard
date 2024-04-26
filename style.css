@@ -3,6 +3,7 @@ body {
   padding: 0;
   display: grid;
   grid-template-columns: 1fr 4fr;
+  min-height: 100vh;
 }
 
 .header {
@@ -18,6 +19,8 @@ body {
 
 .main {
   border: 5px solid red;
+  display: grid;
+  grid-template-columns: 2fr 1fr;
 }
 
 .announcements {
@@ -26,13 +29,12 @@ body {
 
 .projects {
   border: 3px solid darkkhaki;
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
-  gap: 40px;
+  grid-row: span 2;
 }
 
 .trending-profiles {
   border: 3px solid darkorange;
+  grid-column: 2;
 }
 
 .project {
