@@ -26,8 +26,15 @@ body {
 
 .projects {
   border: 3px solid darkkhaki;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 40px;
 }
 
 .trending-profiles {
   border: 3px solid darkorange;
+}
+
+.project {
+  border: 2px solid brown;
 }
