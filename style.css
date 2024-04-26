@@ -8,7 +8,21 @@ body {
 
 .header {
   border: 2px solid pink;
+  display: grid;
+  grid-template-columns: 1fr;
   grid-column-start: 2;
+}
+
+.search-container {
+  display: grid;
+  grid-template-columns: 1fr 2fr 1fr 1fr 1fr;
+  align-items: center;
+}
+
+.greeting-container {
+  display: grid;
+  grid-template-columns: 1fr 2fr 1fr 1fr 1fr;
+  align-items: center;
 }
 
 .sidebar {
@@ -28,15 +42,30 @@ body {
 }
 
 .projects {
+  display: grid;
   border: 3px solid darkkhaki;
   grid-row: span 2;
+  grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+  gap: 50px;
 }
 
 .trending-profiles {
+  display: grid;
   border: 3px solid darkorange;
   grid-column: 2;
+  row-gap: 10px;
+}
+
+.profile {
+  border: 1px solid green;
 }
 
 .project {
   border: 2px solid brown;
+}
+
+h2 {
+  grid-column: span 2;
+  margin: 0;
+  padding: 0;
 }
