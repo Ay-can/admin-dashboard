@@ -39,6 +39,8 @@ body {
 
 .announcements {
   border: 3px solid blue;
+  display: grid;
+  grid-template-columns: 1fr;
 }
 
 .projects {
@@ -56,15 +58,17 @@ body {
   row-gap: 10px;
 }
 
-.profile {
+.user {
   border: 1px solid green;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
 }
 
 .project {
   border: 2px solid brown;
 }
 
-h2 {
+#project-header {
   grid-column: span 2;
   margin: 0;
   padding: 0;
