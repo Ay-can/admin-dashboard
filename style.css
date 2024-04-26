@@ -1,0 +1,23 @@
+.header {
+  border: 2px solid pink;
+}
+
+.sidebar {
+  border: 2px solid green;
+}
+
+.main {
+  border: 3px solid indigo;
+}
+
+.announcements {
+  border: 3px solid blue;
+}
+
+.projects {
+  border: 3px solid darkkhaki;
+}
+
+.trending-profiles {
+  border: 3px solid darkorange;
+}
