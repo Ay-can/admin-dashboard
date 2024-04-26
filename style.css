@@ -1,13 +1,23 @@
+body {
+  margin: 0;
+  padding: 0;
+  display: grid;
+  grid-template-columns: 1fr 4fr;
+}
+
 .header {
   border: 2px solid pink;
+  grid-column-start: 2;
 }
 
 .sidebar {
   border: 2px solid green;
+  grid-column: 1;
+  grid-row: 1 / span 2;
 }
 
 .main {
-  border: 3px solid indigo;
+  border: 5px solid red;
 }
 
 .announcements {
