@@ -20,12 +20,61 @@ body {
   display: grid;
   grid-template-columns: 1fr 2fr 1fr 1fr 1fr;
   align-items: center;
+  justify-items: center;
+}
+
+input {
+  justify-self: stretch;
 }
 
 .greeting-container {
   display: grid;
-  grid-template-columns: 1fr 2fr 1fr 1fr 1fr;
+  grid-template-columns: 2fr 1fr;
   align-items: center;
+}
+
+.greeting-message {
+  display: grid;
+  grid-template-columns: 25% 40%;
+  align-items: center;
+}
+
+#greeting-profile-picture {
+  justify-self: start;
+  margin-left: 40px;
+}
+
+.buttons {
+  display: grid;
+  grid-template-columns: 15% 15% 15%;
+  align-items: center;
+  justify-items: center;
+  justify-content: center;
+  gap: 40px;
+}
+
+.welcome-message {
+  display: grid;
+  grid-template-columns: 1fr 5fr;
+  align-items: center;
+}
+
+.welcome-message p {
+  margin-bottom: 0;
+}
+
+#welcome-message-header {
+  margin-top: 0;
+}
+
+button {
+  width: fit-content;
+  padding: 10px 20px;
+  border-radius: 16px;
+  background-color: #1992d4;
+  color: white;
+  font-weight: 700;
+  border: none;
 }
 
 .sidebar {
@@ -137,21 +186,4 @@ svg {
   width: 60px;
   height: 60px;
   border-radius: 50%;
-}
-
-.greeting-message {
-  font-weight: 600;
-}
-
-.greeting-message > p {
-  margin-bottom: 0;
-}
-.greeting-message > h2 {
-  margin-top: 0;
-}
-
-button {
-  width: fit-content;
-  padding: 5px 20px;
-  border-radius: 10px;
 }
