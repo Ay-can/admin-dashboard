@@ -118,3 +118,40 @@ svg {
   margin: 0;
   padding: 0;
 }
+
+.search-container > img {
+  width: 30px;
+}
+
+.search-container > p {
+  font-weight: 800;
+}
+
+#login-profile-picture {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+}
+
+#greeting-profile-picture {
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+}
+
+.greeting-message {
+  font-weight: 600;
+}
+
+.greeting-message > p {
+  margin-bottom: 0;
+}
+.greeting-message > h2 {
+  margin-top: 0;
+}
+
+button {
+  width: fit-content;
+  padding: 5px 20px;
+  border-radius: 10px;
+}
