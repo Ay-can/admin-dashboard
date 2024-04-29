@@ -14,6 +14,7 @@ body {
   display: grid;
   grid-template-columns: 1fr;
   grid-column-start: 2;
+  padding: 15px;
 }
 
 .search-container {
@@ -46,7 +47,7 @@ input {
   grid-template-columns: 20% 20% 60%;
   align-items: center;
   justify-items: center;
-  gap: 10px;
+  gap: 15px;
 }
 
 .notification-container p {
@@ -115,10 +116,7 @@ button {
   background-color: #1992d4;
   grid-column: 1;
   grid-row: 1 / span 2;
-  grid-template-rows: 120px;
-  grid-auto-rows: 350px;
-  align-items: center;
-
+  grid-template-rows: 10% 20% 20%;
   display: grid;
   color: white;
 }
@@ -129,14 +127,13 @@ button {
 
 #dashboard-logo {
   display: grid;
-  grid-template-columns: auto auto;
+  grid-template-columns: 30px auto;
   align-items: center;
-  gap: 20px;
+  justify-items: center;
+  gap: 15px;
 }
 
 #dashboard-icon {
-  align-self: center;
-  justify-self: end;
   width: 40px;
 }
 
