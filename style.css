@@ -160,11 +160,13 @@ svg {
 .main {
   display: grid;
   grid-template-columns: 2fr 1fr;
+  background-color: #e2e8f0;
 }
 
 .announcements {
   display: grid;
   grid-template-columns: 1fr;
+  background-color: white;
 }
 
 .projects {
