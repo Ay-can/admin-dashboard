@@ -246,8 +246,36 @@ svg {
   margin: 5px;
 }
 
+.project > h3 {
+  grid-column: span 2;
+}
+
+.project > p {
+  grid-column: span 2;
+}
+
+.project-options {
+  grid-column: 2;
+  justify-self: end;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 10px;
+}
+
 .project {
-  border: 2px solid brown;
+  border-left: 10px solid black;
+  border-radius: 10px;
+  background-color: white;
+  padding: 20px;
+  box-shadow: 0px 10px 15px grey;
+
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+}
+
+.project h3,
+.project p {
+  margin: 0px 0px 5px 0px;
 }
 
 .search-container > img {
