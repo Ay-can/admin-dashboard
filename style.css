@@ -10,7 +10,7 @@ body {
 }
 
 .header {
-  border: 2px solid pink;
+  box-shadow: 0px 5px 15px gray;
   display: grid;
   grid-template-columns: 1fr;
   grid-column-start: 2;
@@ -18,9 +18,43 @@ body {
 
 .search-container {
   display: grid;
-  grid-template-columns: 1fr 2fr 1fr 1fr 1fr;
+  grid-template-columns: 6fr 2fr;
+  align-items: center;
+}
+
+input {
+  padding: 5px 8px;
+  border-radius: 16px;
+  border: none;
+  background-color: #e2e8f0;
+  width: 80%;
+}
+
+.search-field {
+  display: grid;
+  align-items: center;
+  grid-template-columns: 10% 5fr;
+}
+
+.search-field img {
+  justify-self: center;
+}
+
+.notification-container {
+  display: grid;
+  justify-self: start;
+  grid-template-columns: 20% 20% 60%;
   align-items: center;
   justify-items: center;
+  gap: 10px;
+}
+
+.notification-container p {
+  font-weight: 700;
+}
+
+img[src$="svg"] {
+  width: 30px;
 }
 
 input {
@@ -83,6 +117,7 @@ button {
   grid-row: 1 / span 2;
   grid-template-rows: 120px;
   grid-auto-rows: 350px;
+  align-items: center;
 
   display: grid;
   color: white;
@@ -95,9 +130,8 @@ button {
 #dashboard-logo {
   display: grid;
   grid-template-columns: auto auto;
-  align-content: start;
-  gap: 10px;
-  padding-left: 10px;
+  align-items: center;
+  gap: 20px;
 }
 
 #dashboard-icon {
@@ -127,33 +161,28 @@ svg {
 }
 
 .main {
-  border: 5px solid red;
   display: grid;
   grid-template-columns: 2fr 1fr;
 }
 
 .announcements {
-  border: 3px solid blue;
   display: grid;
   grid-template-columns: 1fr;
 }
 
 .projects {
   display: grid;
-  border: 3px solid darkkhaki;
   grid-row: span 2;
   gap: 50px;
 }
 
 .trending-profiles {
   display: grid;
-  border: 3px solid darkorange;
   grid-column: 2;
   row-gap: 10px;
 }
 
 .user {
-  border: 1px solid green;
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
 }
