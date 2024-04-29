@@ -15,6 +15,11 @@ body {
   grid-template-columns: 1fr;
   grid-column-start: 2;
   padding: 15px;
+  position: relative;
+}
+
+.greeting-container:last-child p {
+  font-weight: 700;
 }
 
 .search-container {
@@ -116,7 +121,7 @@ button {
   background-color: #1992d4;
   grid-column: 1;
   grid-row: 1 / span 2;
-  grid-template-rows: 10% 20% 20%;
+  grid-template-rows: 10% 25% 20%;
   display: grid;
   color: white;
 }
