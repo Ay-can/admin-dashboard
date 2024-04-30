@@ -299,3 +299,7 @@ svg {
   height: 60px;
   border-radius: 50%;
 }
+
+.welcome-message img {
+  justify-self: center;
+}
