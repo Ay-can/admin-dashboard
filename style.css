@@ -103,7 +103,7 @@ input {
   margin-bottom: 0;
 }
 
-#welcome-message-header {
+p + h2:last-child {
   margin-top: 0;
 }
 
